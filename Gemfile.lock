@@ -1,0 +1,95 @@
+GIT
+  remote: https://github.com/faker-ruby/faker.git
+  revision: 35a48ec6344b8a2581ed3b02d08b3c9f74f3ef27
+  branch: master
+  specs:
+    faker (2.22.0)
+      i18n (>= 1.8.11, < 2)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    builder (3.2.4)
+    childprocess (4.1.0)
+    coderay (1.1.3)
+    concurrent-ruby (1.1.10)
+    cucumber (8.0.0)
+      builder (~> 3.2, >= 3.2.4)
+      cucumber-ci-environment (~> 9.0, >= 9.0.4)
+      cucumber-core (~> 11.0, >= 11.0.0)
+      cucumber-cucumber-expressions (~> 15.1, >= 15.1.1)
+      cucumber-gherkin (~> 23.0, >= 23.0.1)
+      cucumber-html-formatter (~> 19.1, >= 19.1.0)
+      cucumber-messages (~> 18.0, >= 18.0.0)
+      diff-lcs (~> 1.5, >= 1.5.0)
+      mime-types (~> 3.4, >= 3.4.1)
+      multi_test (~> 1.1, >= 1.1.0)
+      sys-uname (~> 1.2, >= 1.2.2)
+    cucumber-ci-environment (9.1.0)
+    cucumber-core (11.0.0)
+      cucumber-gherkin (~> 23.0, >= 23.0.1)
+      cucumber-messages (~> 18.0, >= 18.0.0)
+      cucumber-tag-expressions (~> 4.1, >= 4.1.0)
+    cucumber-cucumber-expressions (15.2.0)
+    cucumber-gherkin (23.0.1)
+      cucumber-messages (~> 18.0, >= 18.0.0)
+    cucumber-html-formatter (19.2.0)
+      cucumber-messages (~> 18.0, >= 18.0.0)
+    cucumber-messages (18.0.0)
+    cucumber-tag-expressions (4.1.0)
+    diff-lcs (1.5.0)
+    ffi (1.15.5)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
+    json (2.6.2)
+    method_source (1.0.0)
+    mime-types (3.4.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2022.0105)
+    multi_test (1.1.0)
+    pry (0.14.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    rake (13.0.6)
+    regexp_parser (2.5.0)
+    report_builder (1.9)
+      json (>= 2.3.0)
+    rexml (3.2.5)
+    rspec (3.11.0)
+      rspec-core (~> 3.11.0)
+      rspec-expectations (~> 3.11.0)
+      rspec-mocks (~> 3.11.0)
+    rspec-core (3.11.0)
+      rspec-support (~> 3.11.0)
+    rspec-expectations (3.11.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-mocks (3.11.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-support (3.11.0)
+    rubyzip (2.3.2)
+    selenium-webdriver (4.1.0)
+      childprocess (>= 0.5, < 5.0)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2)
+    sys-uname (1.2.2)
+      ffi (~> 1.1)
+    watir (7.1.0)
+      regexp_parser (>= 1.2, < 3)
+      selenium-webdriver (~> 4.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  cucumber!
+  faker!
+  pry!
+  rake!
+  report_builder!
+  rspec!
+  watir (~> 7.1)!
+
+BUNDLED WITH
+   2.2.16
